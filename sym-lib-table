@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 173950536)(type Legacy)(uri ${KIPRJMOD}/lib/173950536/173950536.lib)(options "")(descr ""))
+  (lib (name STM32G474QET6)(type Legacy)(uri ${KIPRJMOD}/lib/STM32G474QET6/STM32G474QET6.lib)(options "")(descr ""))
+)

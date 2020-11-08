@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name 173950536)(type Legacy)(uri ${KIPRJMOD}/lib/173950536/173950536.mod)(options "")(descr ""))
+  (lib (name mcu_board_1)(type KiCad)(uri ${KIPRJMOD}/lib/mcu_board_1.pretty)(options "")(descr ""))
+)
