@@ -493,17 +493,6 @@ F 3 "" H 9350 4400 50  0001 C CNN
 	1    9350 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Top_Bottom J8
-U 1 1 600EFC9C
-P 9350 4100
-F 0 "J8" V 9400 3912 50  0000 R CNN
-F 1 "Conn_02x03_Top_Bottom" V 9355 3912 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9350 4100 50  0001 C CNN
-F 3 "~" H 9350 4100 50  0001 C CNN
-	1    9350 4100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9250 4300 9250 4350
 Wire Wire Line
@@ -536,17 +525,6 @@ Wire Wire Line
 Connection ~ 9450 3700
 Text HLabel 9750 3700 2    50   Output ~ 0
 REFERENCE_VOLTAGE
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J7
-U 1 1 6010387A
-P 7250 3550
-F 0 "J7" H 7300 3775 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 7300 3776 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 7250 3550 50  0001 C CNN
-F 3 "~" H 7250 3550 50  0001 C CNN
-	1    7250 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7550 3750 7650 3750
 Wire Wire Line
@@ -592,4 +570,28 @@ Wire Wire Line
 	6750 3550 7050 3550
 Wire Wire Line
 	5550 3250 6750 3250
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J?
+U 1 1 5FB39908
+P 7250 3550
+AR Path="/5FA2782B/5FB39908" Ref="J?"  Part="1" 
+AR Path="/5FA2666C/5FB39908" Ref="J7"  Part="1" 
+F 0 "J7" H 7300 3775 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" V 7345 3730 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 7250 3550 50  0001 C CNN
+F 3 "~" H 7250 3550 50  0001 C CNN
+	1    7250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J8
+U 1 1 5FB4823B
+P 9350 4100
+F 0 "J8" V 9400 3912 50  0000 R CNN
+F 1 "Conn_02x03_Odd_Even" V 9355 3912 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 9350 4100 50  0001 C CNN
+F 3 "~" H 9350 4100 50  0001 C CNN
+	1    9350 4100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

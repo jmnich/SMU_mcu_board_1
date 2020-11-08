@@ -641,17 +641,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 3800 2150 3800
 $Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J19
-U 1 1 5FB8C091
-P 8500 2750
-F 0 "J19" V 8550 2930 50  0000 L CNN
-F 1 "Conn_02x04_Counter_Clockwise" V 8595 2930 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8500 2750 50  0001 C CNN
-F 3 "~" H 8500 2750 50  0001 C CNN
-	1    8500 2750
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J18
 U 1 1 5FBA245A
 P 2500 3600
@@ -661,28 +650,6 @@ F 2 "mcu_board_1:Terminal_block_WE691216710002" H 2500 3600 50  0001 C CNN
 F 3 "~" H 2500 3600 50  0001 C CNN
 	1    2500 3600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J20
-U 1 1 5FBAA479
-P 9200 2750
-F 0 "J20" V 9250 2930 50  0000 L CNN
-F 1 "Conn_02x04_Counter_Clockwise" V 9295 2930 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9200 2750 50  0001 C CNN
-F 3 "~" H 9200 2750 50  0001 C CNN
-	1    9200 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J21
-U 1 1 5FBAB598
-P 9900 2750
-F 0 "J21" V 9950 2930 50  0000 L CNN
-F 1 "Conn_02x04_Counter_Clockwise" V 9995 2930 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9900 2750 50  0001 C CNN
-F 3 "~" H 9900 2750 50  0001 C CNN
-	1    9900 2750
-	0    1    1    0   
 $EndComp
 $Comp
 L power:+5V #PWR099
@@ -932,5 +899,38 @@ F 2 "" H 5150 2350 50  0001 C CNN
 F 3 "" H 5150 2350 50  0001 C CNN
 	1    5150 2350
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J20
+U 1 1 5FB27D5D
+P 9200 2750
+F 0 "J20" V 9250 2930 50  0000 L CNN
+F 1 "Conn_02x04_Odd_Even" V 9295 2930 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9200 2750 50  0001 C CNN
+F 3 "~" H 9200 2750 50  0001 C CNN
+	1    9200 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J21
+U 1 1 5FB2830E
+P 9900 2750
+F 0 "J21" V 9950 2930 50  0000 L CNN
+F 1 "Conn_02x04_Odd_Even" V 9995 2930 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9900 2750 50  0001 C CNN
+F 3 "~" H 9900 2750 50  0001 C CNN
+	1    9900 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J19
+U 1 1 5FB258DA
+P 8500 2750
+F 0 "J19" V 8550 2930 50  0000 L CNN
+F 1 "Conn_02x04_Odd_Even" V 8595 2930 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 8500 2750 50  0001 C CNN
+F 3 "~" H 8500 2750 50  0001 C CNN
+	1    8500 2750
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
