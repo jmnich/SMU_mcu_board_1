@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 185)
+    (drawings 189)
     (tracks 1866)
     (zones 0)
     (modules 133)
@@ -6443,6 +6443,10 @@
     )
   )
 
+  (gr_line (start 182.2 122.1) (end 165.1 122.1) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 182.2 129.8) (end 182.2 122.1) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 165.1 129.8) (end 182.2 129.8) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 165.1 122.1) (end 165.1 129.8) (layer Edge.Cuts) (width 0.05))
   (gr_text 09.11.2020 (at 112.2 108.5) (layer B.SilkS) (tstamp 5FAF12A7)
     (effects (font (size 3 3) (thickness 0.5)) (justify mirror))
   )
